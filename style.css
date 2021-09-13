@@ -1,0 +1,148 @@
+#container{
+    align-items: center;
+}
+.clockContainer{
+    position: relative;
+    margin: 0px 0 0 auto;
+    margin-right: 100px;
+    height: 40vw;
+    width: 40vw;
+    background: url('./image/clock.png') no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    left: 48.8%;
+    top: 26%;
+    width: 2%;
+    height: 24%;
+    opacity: 0.94;
+}
+#minute{
+    left: 49.3%;
+    top: 16%;
+    width: 1.5%;
+    height: 34%;
+    opacity: 0.7;
+
+}
+#second{
+    left: 49.4%;
+    top: 13%;
+    width: 0.49%;
+    height: 37%;
+    opacity: 0.7;
+}
+
+#pageName{
+    position: absolute;
+    margin: 200px 0 0 100px;
+    font-style: oblique;
+    font-size: 80px;
+    font-family: 'Righteous', cursive;
+}
+
+body{
+    width: auto;
+    height: 50px ;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, rgb(169, 30, 204) , rgb(222, 179, 226));
+}
+
+#head1{
+    position: absolute;
+    margin: 285px 0 0 180px;
+    font-style: oblique;
+    font-size: 19px;
+    font-family: 'Righteous', cursive;
+}
+
+#head2{
+    position: absolute;
+    margin: 500px 0 0 165px;
+    font-style: oblique;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#head3{
+    position: absolute;
+    margin: 475px 0 0 120px;
+    font-style: oblique;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* responsive */
+/* 768px */
+
+@media screen and (max-width : 992px){
+    .clockContainer{
+        display: block;
+        position: relative;
+        margin-left: 93px;
+    height: 40vw;
+    width: 40vw;
+    background-size: 100%;
+    }
+
+    #pageName{
+        position: absolute;
+    margin: 404px 0 0 175px;
+    font-style: oblique;
+    font-size: 45px;
+    font-family: 'Righteous', cursive;
+    }
+
+    #head1{
+        position: absolute;
+    margin: 451px 0 0 205px;
+    font-style: oblique;
+    font-size: 13px;
+    font-family: 'Righteous', cursive;
+    }
+
+    #head3{
+        position: absolute;
+    margin-left: 70px;
+    margin-top: 500px;
+    font-style: oblique;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    
+    #head2{
+        position: absolute;
+    margin: 501px 0 0 120px;
+    font-style: oblique;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+}
+@media screen and (max-width : 768px) {
+    #pageName{
+        text-align: center;
+        margin: 350px auto auto 120px;
+    }
+    #head1{
+        margin: 396px auto auto 160px;
+        font-size: 12px;
+    }
+    #head3{
+        margin-top: 450px;
+    }
+
+    
+    #head2{
+    margin: 451px 0 0 120px;
+    font-style: oblique;
+    }
+}
+

@@ -1,3 +1,2 @@
 <p>Final snapshot of project</p>
-![Analog-clock-snap](https://user-images.githubusercontent.com/87026425/133088195-954ef444-c12c-4123-bb52-7413e5fd9a27.png)
-
+<img src="https://github.com/iamgaganap/images/blob/7f4793030dba32dbef610156e29df4af8c3763aa/Analog%20clock%20snap.png">
